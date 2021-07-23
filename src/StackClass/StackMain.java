@@ -9,6 +9,7 @@ public class StackMain {
 		uc1.addNode(30);
 		uc1.addNode(56);
 		System.out.println("");
+		
 		//deleting stack head element
 		System.out.println("deleting element ::");
 		UC2 uc2=new UC2();
@@ -21,6 +22,16 @@ public class StackMain {
 		uc2.deleteHead();
 		uc2.printList();
 		uc2.deleteHead();
+		System.out.println("");
+		
+		//inserting element to queue
+		System.out.println("inserting element into queue ::");
+		UC3 uc3=new UC3();
+		uc3.addNode(56);
+		uc3.addNode(30);
+		uc3.addNode(70);
+		uc3.printList();
+		System.out.println("");
 		
 
 	}
