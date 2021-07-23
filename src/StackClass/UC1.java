@@ -4,6 +4,7 @@ package StackClass;
 public class UC1 {
 	Node head;
 	
+	//add element 
 	public void addNode(int data) {
 		Node node = new Node(data);
 		if (head == null) {
@@ -15,6 +16,7 @@ public class UC1 {
 		printList();
 	}
 	
+	//print stack
 	public void printList() {
 		Node temp = head;
 		while (temp != null) {
