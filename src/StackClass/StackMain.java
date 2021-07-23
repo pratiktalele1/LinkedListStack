@@ -33,6 +33,17 @@ public class StackMain {
 		uc3.printList();
 		System.out.println("");
 		
+		//deleting element from queue
+		System.out.println("deleting element from queue ::");
+		UC4 uc4=new UC4();
+		uc4.addNode(56);
+		uc4.addNode(30);
+		uc4.addNode(70);
+		uc4.printList();
+		uc4.deleteHead();
+		uc4.printList();
+		System.out.println("");
+		
 
 	}
 }
